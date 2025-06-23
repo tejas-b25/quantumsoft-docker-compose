@@ -1,0 +1,12 @@
+important commands to to done manually on agent instnace 
+
+sudo chmod 666 /var/run/docker.sock
+
+if still facing issues after using below command 
+
+whoami
+groups
+docker ps
+ls -l /var/run/docker.sock
+
+use below command and give output to chatgpt
