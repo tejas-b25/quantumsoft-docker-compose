@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: pmasne98/qst-backend:m1
+          image: tejas2506/backend:t1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
