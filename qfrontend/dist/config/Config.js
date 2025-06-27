@@ -5,7 +5,7 @@ const config = {
 };
 
 // Automatically choose the correct environment
-const apiBaseURL = window.location.hostname === "http://18.118.12.110:8080/api/";  
+const apiBaseURL = window.location.hostname === "http://52.14.80.35:8080/api/";  
 
 // Expose the API URL globally
 window.apiBaseURL = apiBaseURL;
